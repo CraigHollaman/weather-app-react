@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+body {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#app {
+  background-image: url("../background.png");
+  background-size: cover;
+  background-position: bottom;
+  -webkit-transition: 2.0s;
+  transition: 2.0s;
+}
+
+main {
+  color: #FFFFFF;
+  min-height: 100vh;
+  padding: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.4)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+}
+
+main.night {
+  color: #ffff99;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+}
+
+.search-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 3px;
+  border: 0px;
+  font-size: 1.5em;
+}
+
+.weather-holder {
+  margin-top: 50px;
+}
+
+.weather-holder .location, .weather-holder .conditions {
+  font-size: 2.0em;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.weather-holder .date, .weather-holder .temperature-sub {
+  font-size: 1.0em;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.weather-holder .temperature {
+  font-size: 7.0em;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px auto;
+}
+/*# sourceMappingURL=main.css.map */
